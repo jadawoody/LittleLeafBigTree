@@ -1,0 +1,67 @@
+.logo{
+    height: 30vh;
+    width: auto;
+    
+}
+.headerTotal{
+    display: flex;
+    align-items: center;
+    height: 170px;
+}
+.headerList{
+    list-style: none;
+    position: absolute;
+    top: 180px;
+    color: rgb(72, 95, 72);
+    /* border-left: black dotted .5px;
+    border-right: black dotted .5px; */
+    margin-left: 5%;
+    padding-right: 3%;
+}
+.headerList li{
+    margin-bottom: 8vh;
+}
+.title1{
+    position: absolute;
+    right: 100px;
+    font-size: 34px;
+    font-weight: 100;
+    margin-top: -3%;
+    color: rgb(72, 95, 72);
+    font-family: 'Baskervville', serif;
+}
+.title2{
+    position: absolute;
+    right: 80px;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: -3%;
+    color: rgb(114, 141, 114);
+    font-family: 'Baskervville', serif;
+}
+.homeIntro{
+    margin-left: 25vw;
+    color: rgb(77, 92, 77);
+    font-family: 'Baskervville', serif;
+}
+#homeIT2{
+    padding-left: 50px; 
+    margin-top: -3%;
+    font-family: 'Open Sans', sans-serif;
+}
+/* .bodyText{
+    margin-bottom: 200px;
+} */
+footer{
+    margin-top: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer p {
+    margin-top: -5px;
+    color: rgb(77, 92, 77);
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
