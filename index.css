@@ -1,7 +1,7 @@
 .logo{
     height: 30vh;
     width: auto;
-    
+    margin-left: 1.5vw;
 }
 .headerTotal{
     display: flex;
@@ -20,6 +20,9 @@
 }
 .headerList li{
     margin-bottom: 8vh;
+}
+.homeIntro{
+    margin-top: -5vh;
 }
 .title1{
     position: absolute;
@@ -46,14 +49,24 @@
 }
 #homeIT2{
     padding-left: 50px; 
-    margin-top: -3%;
+    /* margin-top: -3%; */
     font-family: 'Open Sans', sans-serif;
 }
 /* .bodyText{
     margin-bottom: 200px;
 } */
+.bigTreeClass{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.bigTreeImg{
+    height: 50vh;
+    width: auto;
+    /* margin-left: 10vw; */
+}
 footer{
-    margin-top: 400px;
+    margin-top: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
